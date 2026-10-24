@@ -20,7 +20,7 @@ from keep_alive import keep_alive
 API_ID = int(os.environ.get("API_ID", "0"))
 API_HASH = os.environ.get("API_HASH", "")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))  # Optional: Your Telegram User ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8275826746"))  # Optional: Your Telegram User ID
 
 app = Client("yt_clean_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
